@@ -1,5 +1,5 @@
-*{border: dashed 1px red;
-}
+/* {border: dashed 1px red;
+} */
 .body {
   margin: 0;
 }
@@ -121,7 +121,8 @@
 }
 
 .first-page__middle-header {
-  margin:36px 0 96px 52px;
+  margin: 0 0 96px 52px;
+  padding-top: 36px;
   font-family: montserratmedium, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -146,6 +147,7 @@
   line-height: 24px;
   color: #FFFFFF;
   background-color: #000;
+  border: none;
 }
 
 .first-page__hamburger-menu {

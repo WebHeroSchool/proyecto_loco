@@ -162,7 +162,7 @@
 
 .first-page__main-section {
   width: auto;
-  margin: 0 163px 169px 186px;
+  margin: 0 143px 169px 186px;
   height: 460px;
   background: url(img/first-page.png);
   background-position: left top;
@@ -219,4 +219,13 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 0px;
+  margin-left: 19px;
+}
+
+.first-page__main-section_products-vector {
+  background: url(img/vector.png);
+  width: 43px;
+  height: 12px;
+  display: inline-block;
+  margin-top: 5px;
 }

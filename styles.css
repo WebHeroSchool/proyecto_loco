@@ -163,12 +163,12 @@
 .first-page__main-section {
   width: auto;
   margin: 0 163px 169px 186px;
-  height: 562px;
+  height: 460px;
   background: url(img/first-page.png);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 94px 0 0 47%;
+  padding: 94px 0 0 42%;
 }
 
 .first-page__main-section_title {

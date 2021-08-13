@@ -162,7 +162,7 @@
 
 .first-page__main-section {
   width: auto;
-  margin: 0 143px 169px 186px;
+  margin: 0 143px 84px 186px;
   height: 460px;
   background: url(img/first-page.png);
   background-position: left top;
@@ -227,5 +227,28 @@
   width: 43px;
   height: 12px;
   display: inline-block;
-  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+.first-page__main-section_products-vector:hover {
+  cursor: pointer;
+}
+
+.first-page__main-section_footer {
+  width: 47%;
+  height: 46px;
+}
+
+  .first-page__main-section_footer-icons,
+  .first-page__main-section_footer-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-page__main-section_footer-instagram {
+  background-color: #fff;
+  border-radius: 0.5;
+  width: 43px;
+  height: 43px;
 }

@@ -238,7 +238,7 @@
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 94px 0 0 42%;
+  padding: 106px 0 0 42%;
 }
 
 .first-page__main-section_title {
@@ -248,7 +248,7 @@
   font-size: 80px;
   line-height: 82px;
   margin: 0;
-  padding-bottom: 26px;
+  padding-bottom: 14px;
 }
 
 .first-page__main-section_description {
@@ -258,7 +258,8 @@
   font-size: 15px;
   line-height: 21px;
   margin: 0;
-  padding-bottom: 50px;
+  padding-bottom: 51px;
+  width: 89%;
 }
 
 .first-page__main-section_read-more {
@@ -272,7 +273,7 @@
   text-decoration: none;
   border:  1.5px solid #000;
   transition: 0.5s;
-  margin-right: 54px;
+  margin-right: 24px;
 }
 
 .first-page__main-section_read-more:hover {
@@ -470,5 +471,5 @@
 }
 
 .second-page__main-section_box_basket:hover {
-  font-size: 20px;
+  font-size: 14px;
 }

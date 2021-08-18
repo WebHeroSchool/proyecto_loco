@@ -351,8 +351,8 @@
 
 .second-page__main-section_image-gris {
   width: 28%;
-  height: 415px;
-  padding: 49px 0 0 10%;
+  height: 431px;
+  padding: 57px 0 0134px;
   position: absolute;
   z-index: 1;
 }
@@ -360,7 +360,7 @@
 .second-page__main-section_image-rose {
   width: 40%;
   height: 644px;
-  padding: 60px 0 0 16%;
+  padding: 60px 0 0 233px;
   position: absolute;
   z-index: 5;
 }
@@ -384,7 +384,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
-  padding: 40px 0 17px 11%;
+  padding: 46px 0 14px 11%;
   margin: 0;
 }
 

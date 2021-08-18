@@ -410,6 +410,12 @@
   height: 30px;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.second-page__main-section_box-colores_item:hover {
+  width: 38px;
+  height: 38px;
 }
 
 .second-page__main-section_box-colores_item_active {
@@ -418,7 +424,6 @@
   height: 38px;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.5s;
 }
 
 .second-page__main-section_box-colores {
@@ -448,4 +453,22 @@
 .second-page__main-section_box-number,
 .second-page__main-section_box_basket {
 
+}
+
+.second-page__main-section_box_basket {
+  font-family: montserratmedium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 1.5px solid #000;
+  padding: 10px 10% 10px 8%;
+}
+
+.second-page__main-section_box_basket:hover {
+  font-size: 20px;
 }

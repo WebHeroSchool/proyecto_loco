@@ -129,7 +129,7 @@
   font-family: montserratmedium, sans-serif;
   font-style: normal;
   font-weight: 500;
-  width: 27%;
+  width: 28%;
   display: flex;
   justify-content: space-between;
 }
@@ -151,6 +151,7 @@
   color: #FFFFFF;
   background-color: #000;
   border: none;
+  margin-right: 19px;
 }
 
 .first-page__hamburger-menu {
@@ -232,8 +233,8 @@
 
 .first-page__main-section {
   width: auto;
-  margin: 0 143px 84px 186px;
-  height: 460px;
+  margin: 0 143px 80px 183px;
+  height: 468px;
   background: url(img/first-page.png);
   background-position: left top;
   background-repeat: no-repeat;
@@ -307,7 +308,7 @@
 }
 
 .first-page__main-section_footer {
-  width: 50%;
+  width: 52%;
   display: flex;
   justify-content: space-between
 }
@@ -335,6 +336,11 @@
   margin-left: 52px;
   display: flex;
   align-items: center;
+}
+
+.first-page__main-section_footer-image {
+  padding-top: 1px;
+  padding-right: 13px;
 }
 
 .second-page {

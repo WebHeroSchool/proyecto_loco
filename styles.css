@@ -228,6 +228,7 @@
   transform: translate(-7px);
   opacity: 0.8;
   border-radius: 0.8;
+  font-size: 14px;
 }
 
 .first-page__main-section_products {
@@ -269,6 +270,13 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+.first-page__main-section_footer-instagram:hover,
+.first-page__main-section_footer-vkontakte:hover,
+.first-page__main-section_footer-facebook:hover {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
 }
 
 .first-page__main-section_footer-instagram,
@@ -422,6 +430,11 @@
 
 .second-page__main-section_box_basket:hover {
   font-size: 14px;
+  cursor: pointer;
+  box-shadow: 4px 5px #d7d7d7;
+  transform: translate(-7px);
+  opacity: 0.8;
+  border-radius: 0.8;
 }
 
 .second-page__ellipse-grey,
@@ -499,4 +512,10 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
+}
+
+.third-page{
+  width: 1440px;
+  height: 900px;
+  background: #EBE3D8;
 }

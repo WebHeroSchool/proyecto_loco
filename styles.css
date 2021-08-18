@@ -352,7 +352,7 @@
 .second-page__main-section_image-gris {
   width: 28%;
   height: 431px;
-  padding: 57px 0 0134px;
+  padding: 57px 0 0 134px;
   position: absolute;
   z-index: 1;
 }
@@ -478,4 +478,11 @@
 
 .second-page__main-section_box_basket:hover {
   font-size: 14px;
+}
+
+.second-page__ellipse-grey,
+.second-page__ellipse-rose,
+.second-page__ellipse-blue,
+.second-page__ellipse-green {
+  padding-top: 5px;
 }

@@ -233,13 +233,13 @@
 
 .first-page__main-section {
   width: auto;
-  margin: 0 143px 80px 183px;
+  margin: 0 143px 68px 183px;
   height: 468px;
   background: url(img/first-page.png);
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: contain;
-  padding: 106px 0 0 42%;
+  background-size: 49%;;
+  padding: 106px 0 0 41%;
 }
 
 .first-page__main-section_title {
@@ -249,7 +249,7 @@
   font-size: 80px;
   line-height: 82px;
   margin: 0;
-  padding-bottom: 14px;
+  padding: 0 0 14px 3%;
 }
 
 .first-page__main-section_description {
@@ -270,11 +270,11 @@
   font-size: 13px;
   line-height: 0px;
   color: #000;
-  padding: 14px 41px;
+  padding: 14px 37px;
   text-decoration: none;
   border:  1.5px solid #000;
   transition: 0.5s;
-  margin-right: 24px;
+  margin: 0 10% 0 3%;
 }
 
 .first-page__main-section_read-more:hover {
@@ -291,7 +291,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 0px;
-  margin-left: 19px;
+  margin-right: 3%;
 }
 
 .first-page__main-section_products-vector {

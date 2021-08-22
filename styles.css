@@ -323,7 +323,7 @@
   width: 34%;
   height: 556px;
   margin: 0 5% 0 61%;
-  box-shadow: 0 1px 22px #909090, 0 0px 4px #c0c0c0;
+  box-shadow: 4px 16px 21px rgb(0 0 0 / 20%);
 }
 
 .second-page__main-section {

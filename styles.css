@@ -673,7 +673,7 @@
 }
 
 .third-page__main-section_arrow {
-  margin: 37px 0 204px 65%;
+  margin: 37px 0 197px 65%;
   width: 24%;
   background: url(img/third-vector.png);
   background-position: right;
@@ -687,7 +687,8 @@
 }
 
 .third-page__footer {
-  margin:0 21px 0 84%;
+  margin-left: 84%;
+  padding-top: 17px
   font-family: montserratbold;
   font-style: normal;
   font-weight: bold;
@@ -696,6 +697,6 @@
   background: url(img/third-logo.png);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 49%;
   height: 22px;
 }

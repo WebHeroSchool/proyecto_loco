@@ -324,6 +324,7 @@
   height: 556px;
   margin: 0 5% 0 61%;
   box-shadow: 4px 16px 21px rgb(0 0 0 / 20%);
+  margin-bottom: 40px;
 }
 
 .second-page__main-section {
@@ -512,7 +513,8 @@
 }
 
 .second-page__main-section_arrow {
-  margin: 39px 0 0 62%;
+  margin-left: 61%;
+  padding-left: 5px;
   width: 33%;
   background: url(img/second-vector.png);
   background-position: right;

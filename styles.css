@@ -365,12 +365,23 @@
 }
 
 .second-page__main-section_box-colores_item {
-  padding-left: 4%;
   width: 30px;
   height: 30px;
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.second-page__ellipse-rose {
+  padding: 1px;
+}
+
+.second-page__ellipse-blue {
+  padding: 1px;
+}
+
+.second-page__ellipse-green {
+  padding: 1px;
 }
 
 .second-page__main-section_box-colores_item:hover {
@@ -387,7 +398,7 @@
 }
 
 .second-page__main-section_box-colores {
-  padding:0 0 55px 8%;
+  padding:3px 0 55px 11%;
   width: 50%;
 }
 

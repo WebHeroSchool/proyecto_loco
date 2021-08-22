@@ -574,7 +574,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
-  padding: 34px 11% 17px 10%;
+  padding: 39px 11% 15px 9%;
 }
 
 .third-page__box-section_subtitle {
@@ -584,8 +584,9 @@
   font-size: 16px;
   line-height: 16px;
   opacity: 0.5;
-  padding: 0 0 35px 10%;
+  padding: 0 0 35px 9%;
   margin: 0;
+  letter-spacing: 0.5px;
 }
 
 .third-page__box-section_description {
@@ -595,8 +596,8 @@
   font-size: 15px;
   line-height: 21px;
   opacity: 0.5;
-  padding: 0 12% 17px 10%;
-  margin: 0 0 60px 0;
+  padding: 0 12% 55px 10%;
+  margin: 0:
 }
 
 .third-page__main-section_box-number {
@@ -606,14 +607,15 @@
   text-align: left;
   padding: 0;
   width: 20%;
+  padding: 4px 2px 4px 0;
   border: 1.5px solid #000;
-  margin: 0 3% 0 10%;
+  margin: 0 2% 0 9%;
 }
 
 .third-page__main-section_box_number-minus,
 .third-page__main-section_box_number-plus {
   position: absolute;
-  top: 0;
+  top: 2px;
   width: 40px;
   height: 32px;
   line-height: 32px;
@@ -649,7 +651,7 @@
   line-height: 0px;
   color: #000;
   line-height: 32px;
-  margin-left: 22%;
+  margin-left: 20%;
   border: none;
   width: 57px;
   text-align: center;
@@ -667,15 +669,15 @@
   cursor: pointer;
   transition: 0.5s;
   border: 1.5px solid #000;
-  padding: 10px 10% 10px 8%;
+  padding: 14px 10% 14px 9%;
 }
 
 .third-page__main-section_arrow {
-  margin: 39px 0 212px 67%;
-  width: 22%;
+  margin: 37px 0 204px 65%;
+  width: 24%;
   background: url(img/third-vector.png);
   background-position: right;
-  background-size: 25%;
+  background-size: 31%;
   background-repeat: no-repeat;
   font-family: montserratmedium;
   font-style: normal;
@@ -685,16 +687,15 @@
 }
 
 .third-page__footer {
-  margin-left: 84%;
+  margin:0 21px 0 84%;
   font-family: montserratbold;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  width: 14%;
   background: url(img/third-logo.png);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 41%;
-  height: 19px;
+  background-size: 40%;
+  height: 22px;
 }

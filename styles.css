@@ -103,9 +103,8 @@
   height: 92px;
   right: 0;
   top: 0px;
-  background: #000;
-  opacity: 0.05;
   position: absolute;
+  background-image: url(img/rectangle-menu.svg);
 }
 
 .menu__btn {
@@ -113,7 +112,7 @@
   align-items: center;
   position: fixed;
   top: 39px;
-  left: 87%;
+  left: 96%;
   width: 25px;
   height: 3px;
   cursor: pointer;
@@ -123,6 +122,7 @@
 #menu__toggle {
   opacity: 0;
 }
+
 
 .menu__btn > span,
 .menu__btn > span::after {
@@ -747,6 +747,10 @@
     padding: 0 0 10px 7%;
   }
 
+  .menu__btn {
+    left: 87%;
+  }
+
   .first-page__main-section_description,
   .first-page__main-section_read-more,
   .first-page__main-section_products,
@@ -857,6 +861,7 @@
 
   .third-page__main-image {
     margin: 0;
+    width: 100%;
   }
 
   .black-line {

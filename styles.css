@@ -697,6 +697,61 @@
   height: 22px;
 }
 
+@media (min-width:1529px) {
+  .first-page__middle-header {
+    width: 21%;
+  }
+
+  .menu__btn {
+    left: 97%;
+  }
+
+  .first-page__main-section_title {
+    font-size: 83px;
+  }
+
+  .first-page__main-section_description {
+    font-size: 19px;
+    width: 77%;
+  }
+
+  .second-page__main-section_image-gris {
+    width: 24%;
+  }
+
+  .second-page__main-section_image-rose {
+    width: 34%;
+  }
+
+  .second-page__main-section_box-title {
+    font-size: 46px;
+  }
+
+  .second-page__main-section_box-description {
+    font-size: 16px;
+  }
+
+  .third-page__box-section_title {
+    font-size: 46px;
+  }
+
+  .third-page__box-section_description {
+    font-size: 16px;
+  }
+
+  .third-page__main-image {
+    margin-left: 13%;
+  }
+
+  .third-page__box-section {
+    margin-left: 52%;
+  }
+
+  .third-page__main-section_arrow  {
+    margin-left: 59%;
+  }
+}
+
 @media (max-width: 380px) {
   .first-page {
     background: none;

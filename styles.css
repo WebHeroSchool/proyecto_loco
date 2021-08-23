@@ -711,7 +711,6 @@
 
   .first-page__logo {
     height: 69px;
-    width: 100%;
     font-family: montserratmedium;
     font-style: normal;
     font-weight: 500;
@@ -737,7 +736,7 @@
     padding: 354px 0 0 0;
     background: url(img/first-page375.png);
     background-position: top center;
-    background-size: 100%;
+    background-size: 102%;
     background-repeat: no-repeat;
     height: 169px;
   }

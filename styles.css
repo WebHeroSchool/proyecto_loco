@@ -704,6 +704,15 @@
     height: auto;
   }
 
+  .first-page__header {
+    height: 69px;
+  }
+
+  .first-page__hamburger-menu {
+    width: 70px;
+    height: 69px;
+  }
+
   .first-page__logo {
     height: 69px;
     font-family: montserratmedium;
@@ -749,6 +758,7 @@
 
   .menu__btn {
     left: 87%;
+    top: 29px;
   }
 
   .first-page__main-section_description,

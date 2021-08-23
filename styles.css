@@ -738,7 +738,7 @@
     background-position: top center;
     background-size: 102%;
     background-repeat: no-repeat;
-    height: 169px;
+    height: 159px;
   }
 
   .first-page__main-section_title {
@@ -747,9 +747,9 @@
     background: url(img/first-vector375.png);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: 11%;
+    background-size: 10%;
     height: 130px;
-    padding: 0 0 14px 7%;
+    padding: 0 0 10px 7%;
   }
 
   .first-page__main-section_description,
@@ -765,7 +765,7 @@
   }
 
   .second-page__main-section {
-    padding: 253px 0 0 0;
+    padding: 263px 0 0 0;
     background-image: url(img/second375.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -829,7 +829,7 @@
   .second-page__main-section_box-colores {
     width: 43%;
     margin-right: 15%;
-    padding: 0 0 31px 10%;
+    padding: 0 0 36px 10%;
   }
 
   .second-page__main-section_box-prise {
@@ -871,16 +871,16 @@
   }
 
   .third-page__box-section {
-    width: 81%;
+    width: 85%;
     height: 195px;
-    margin: 100px 7% 128px 12%;
+    margin: 239px 7% 128px 10%;
   }
 
   .third-page__box-section_title {
     font-size: 20px;
     line-height: 20px;
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 26px 0 0 8%;
   }
 
   .third-page__box-section_subtitle {
@@ -888,19 +888,26 @@
     line-height: 10px;
     letter-spacing: 0.07em;
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 6px 0 0 8%;
   }
 
   .third-page__box-section_description {
     font-size: 9px;
     line-height: 13px;
     margin-left: 0;
-    padding: 0 0 0 0;
+    padding: 10px 0 0 8%;
+    margin: 0 0 31px 0;
+    width: 76%;
   }
 
   .third-page__main-section_box-number,
   .third-page__footer {
     display: none;
+  }
+
+  .third-page__main-section_box-basket {
+    padding: 12px 16% 9px 15%;
+    margin-left: 8%;
   }
 
   .third-page__main-section_arrow {

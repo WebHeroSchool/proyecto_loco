@@ -817,7 +817,8 @@
   }
 
   .second-page__ellipse-blue,
-  .second-page__ellipse-green {
+  .second-page__ellipse-green,
+  .second-page__ellipse-rose {
     padding-right: 4%;
   }
 
@@ -827,7 +828,7 @@
   }
 
   .second-page__main-section_box-colores {
-    width: 39%;
+    width: 43%;
     margin-right: 19%;
     padding: 0 0 31px 10%;
   }

@@ -734,7 +734,7 @@
   .first-page__main-section {
     width: 100%;
     margin: 0;
-    padding: 359px 0 0 0;
+    padding: 354px 0 0 0;
     background: url(img/first-page375.png);
     background-position: top center;
     background-size: 100%;
@@ -750,6 +750,7 @@
     background-repeat: no-repeat;
     background-size: 11%;
     height: 130px;
+    padding: 0 0 14px 7%;
   }
 
   .first-page__main-section_description,

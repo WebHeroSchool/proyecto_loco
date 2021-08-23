@@ -586,7 +586,7 @@
   opacity: 0.5;
   padding: 0 0 35px 9%;
   margin: 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .third-page__box-section_description {
@@ -597,7 +597,7 @@
   line-height: 21px;
   opacity: 0.5;
   padding: 0 12% 55px 10%;
-  margin: 0:
+  margin: 0;
 }
 
 .third-page__main-section_box-number {

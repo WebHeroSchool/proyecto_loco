@@ -986,8 +986,9 @@
   }
 
   .second-page__main-section_box_number-text {
-    font-size: 10px;
-    width: 87%;
+    font-size: 9px;
+    width: 52%;
+    line-height: 28px;
   }
 
   .second-page__main-section_box_number-minus,

@@ -943,16 +943,24 @@
     padding: 4% 0 0 16%;
   }
 
+  .second-page__main-section_box {
+    height: auto;
+  }
+
   .second-page__main-section_box-title {
-    font-size: 30px;
+    font-size: 22px;
+    padding: 9% 0 1% 11%;
   }
 
   .second-page__main-section_box-subtitle {
-    font-size: 13px;
+    font-size: 9px;
+    padding-bottom: 10%;
   }
 
   .second-page__main-section_box-description {
-    font-size: 10px;
+    font-size: 8px;
+    line-height: 12px;
+    padding-bottom: 7%;
   }
 
   .second-page__main-section_box-prise {

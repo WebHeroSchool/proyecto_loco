@@ -824,7 +824,7 @@
 
 @media (min-width: 769px) and (max-width: 1045px) {
   .first-page {
-    height: 600px;
+    height: auto;
   }
 
   .first-page__middle-header {
@@ -859,7 +859,7 @@
 
   .first-page__main-section {
     margin: 0 9% 0 13%;
-    padding: 55px 0 0 40%;
+    padding: 55px 0 9% 40%;
     height: auto;
   }
 
@@ -890,6 +890,28 @@
   .first-page__main-section_products-vector {
     width: 8%;
     height: 2%;
+  }
+
+  .first-page__main-section_footer-icons {
+    width: 22%;
+    margin-left: 7%;
+  }
+
+  .first-page__main-section_footer-instagram,
+  .first-page__main-section_footer-vkontakte,
+  .first-page__main-section_footer-facebook {
+    width: 25%;
+    height: 40%;
+  }
+
+  .first-page__main-section_footer-instagram-img,
+  .first-page__main-section_footer-vkontakte-img,
+  .first-page__main-section_footer-facebook-img {
+    width: 45%;
+  }
+
+  .first-page__main-section_footer-image {
+    padding-right: 0;
   }
 
   .second-page__main-section_image-gris {

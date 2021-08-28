@@ -879,12 +879,17 @@
 
   .first-page__main-section_read-more,
   .first-page__main-section_products {
-    font-size: 11px;
+    font-size: 7px;
   }
 
   .first-page__main-section_read-more{
-    padding: 13px 27px;
-    margin-right: 4%;
+    padding: 3% 8%;
+    margin-right: 8%;
+  }
+
+  .first-page__main-section_products-vector {
+    width: 8%;
+    height: 2%;
   }
 
   .second-page__main-section_image-gris {

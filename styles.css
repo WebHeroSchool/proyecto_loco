@@ -926,7 +926,7 @@
   }
 
   .second-page {
-    height: auto;
+    height: 483px;
   }
 
   .second-page__main-section {
@@ -945,6 +945,7 @@
 
   .second-page__main-section_box {
     height: auto;
+    margin-bottom: 20px;
   }
 
   .second-page__main-section_box-title {
@@ -963,13 +964,50 @@
     padding-bottom: 7%;
   }
 
+  .second-page__ellipse-grey,
+  .second-page__ellipse-blue,
+  .second-page__ellipse-green {
+    width: 12%;
+    height: auto;
+  }
+
+  .second-page__ellipse-rose {
+    width: 16%;
+    height: auto;
+  }
+
+  .second-page__main-section_box-colores {
+    padding-bottom: 11%;
+  }
+
   .second-page__main-section_box-prise {
-    font-size: 30px;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .second-page__main-section_box_number-text {
+    font-size: 10px;
+    width: 87%;
+  }
+
+  .second-page__main-section_box_number-minus,
+  .second-page__main-section_box_number-plus {
+    width: 40%;
+    line-height: 26px;
+  }
+
+  .second-page__main-section_box_basket{
+    font-size: 7px;
+    padding-top: 12px;
+  }
+
+  .second-page__main-section_box-number {
+    margin-bottom: 7%;
   }
 
   .second-page__main-section_arrow  {
-    background-size: 35%;
-    font-size: 11px;
+    background-size: 50%;
+    font-size: 7px;
   }
 }
 

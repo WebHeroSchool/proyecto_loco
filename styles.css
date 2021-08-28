@@ -63,7 +63,7 @@
   background-position: left top;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 63%;
 }
 
 .first-page__middle-header {
@@ -828,37 +828,55 @@
   }
 
   .first-page__middle-header {
-    margin: 0 0 45px 4%;
-    padding-top: 20px;
-    width: 36%;
+    margin: 0 0 42px 4%;
+    padding-top: 12px;
+    width: 30%;
   }
 
-  .first-page__logo,
-  .first-page__lenguage {
+  .first-page__logo {
     font-size: 16px;
   }
 
+  .first-page__lenguage {
+    font-size: 11px;
+  }
+
   .menu__btn {
-    left: 94%;
-    top: 32px;
+    left: 95%;
+    top: 31px;
+    width: 35%;
   }
 
   .first-page__hamburger-menu {
-    width: 10%;
-    height: 80px;
+    width: 7%;
+    height: 52px;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::after {
+    height: 2px;
   }
 
   .first-page__main-section {
-    margin: 0 7% 0 7%;
-    padding: 50px 0 0 41%;
+    margin: 0 9% 0 13%;
+    padding: 55px 0 0 40%;
     height: 381px;
   }
 
   .first-page__main-section_title {
-    font-size: 60px;
+    font-size: 446pxpx;
+    line-height: 46px;
+    padding-bottom: ;
   }
 
-  .first-page__main-section_description,
+  .first-page__main-section_description {
+    font-size: 8px;
+    line-height: 11px;
+    width: 84%;
+    padding-bottom: 23px;
+  }
+
+
   .first-page__main-section_read-more,
   .first-page__main-section_products {
     font-size: 11px;

@@ -850,7 +850,6 @@
   .first-page__hamburger-menu {
     width: 7%;
     height: 52px;
-    height: auto;
   }
 
   .menu__btn > span,
@@ -861,7 +860,7 @@
   .first-page__main-section {
     margin: 0 9% 0 13%;
     padding: 55px 0 0 40%;
-    height: 381px;
+    height: auto;
   }
 
   .first-page__main-section_title {

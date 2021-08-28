@@ -850,6 +850,7 @@
   .first-page__hamburger-menu {
     width: 7%;
     height: 52px;
+    height: auto;
   }
 
   .menu__btn > span,

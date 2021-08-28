@@ -894,6 +894,7 @@
 
   .first-page__main-section_footer {
     width: 53%;
+    padding-bottom: 2%;
   }
 
   .first-page__main-section_footer-image-img {
@@ -924,14 +925,22 @@
     padding-right: 0;
   }
 
+  .second-page {
+    height: auto;
+  }
+
+  .second-page__main-section {
+    padding-top: 12%;
+  }
+
   .second-page__main-section_image-gris {
     height: auto;
-    padding-left: 80px;
+    padding: 4% 0 0 9%;
   }
 
   .second-page__main-section_image-rose {
     height: auto;
-    padding-left: 160px;
+    padding: 4% 0 0 16%;
   }
 
   .second-page__main-section_box-title {

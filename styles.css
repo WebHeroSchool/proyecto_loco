@@ -966,8 +966,13 @@
     font-size: 7px;
   }
 
+  .third-page {
+    height: auto;
+  }
+
   .black-line {
     width: 5%;
+    height: 98%;;
   }
 
   .third-page__main-section {
@@ -980,6 +985,7 @@
 
   .third-page__box-section {
     margin-top: 8%;
+    height: auto;
   }
 
   .third-page__box-section_title {
@@ -998,6 +1004,10 @@
     padding: 0 13% 11% 10%;
   }
 
+  .third-page__main-section_box_number {
+    padding: 0 2% 9% 9%;
+  }
+
   .third-page__main-section_box_number-minus,
   .third-page__main-section_box_number-plus {
 
@@ -1006,6 +1016,17 @@
   .third-page__main-section_box_basket {
     font-size: 7px;
     padding: 3% 9%;
+  }
+
+  .third-page__main-section_arrow {
+    margin: 2% 0 14% 66%;
+    font-size: 7px;
+  }
+
+  .third-page__footer {
+    font-size: 7px;
+    line-height: 13px;
+    padding: 1% 0;
   }
 }
 

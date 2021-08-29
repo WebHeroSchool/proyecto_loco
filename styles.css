@@ -995,12 +995,17 @@
   .third-page__box-section_description {
     font-size: 8px;
     line-height: 13px;
-    padding: 0 13% 9% 10%;
+    padding: 0 13% 11% 10%;
   }
 
   .third-page__main-section_box_number-minus,
   .third-page__main-section_box_number-plus {
-    
+
+  }
+
+  .third-page__main-section_box_basket {
+    font-size: 7px;
+    padding: 3% 9%;
   }
 }
 

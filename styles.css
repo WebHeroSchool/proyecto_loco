@@ -882,7 +882,7 @@
   }
 
   .second-page {
-    height: 483px;
+    height: auto;
   }
 
   .second-page__main-section {
@@ -966,6 +966,7 @@
     background-size: 50%;
     font-size: 7px;
     padding-bottom: 4%;
+    background-position: right top;
   }
 
   .third-page {
@@ -1007,8 +1008,8 @@
     padding: 0 13% 11% 10%;
   }
 
-  .third-page__main-section_box_number {
-   margin: 0 2% 11% 9%;
+  .third-page__main-section_box-number {
+   margin: 0 2% 9% 9%;
    padding-bottom: 1%;
   }
 

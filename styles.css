@@ -780,6 +780,7 @@
 @media (min-width: 769px) and (max-width: 1045px) {
   .first-page {
     height: auto;
+    background-size: 32%;
   }
 
   .first-page__middle-header {
@@ -1006,12 +1007,21 @@
   }
 
   .third-page__main-section_box_number {
-    padding: 0 2% 9% 9%;
+   margin: 0 2% 11% 9%;
+   padding-bottom: 1%;
+  }
+
+  .third-page__main-section_box_number-text {
+    font-size: 8px;
+    width: 52%;
+    line-height: 14px;
   }
 
   .third-page__main-section_box_number-minus,
   .third-page__main-section_box_number-plus {
-
+    width: 35%;
+    font-size: 8px;
+    line-height: 23px;
   }
 
   .third-page__main-section_box_basket {

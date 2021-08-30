@@ -990,6 +990,7 @@
 
   .third-page__box-section_title {
     padding: 4% 11% 0 10%;
+    font-size: 21px;
   }
 
   .third-page__box-section_subtitle {
@@ -1019,14 +1020,14 @@
   }
 
   .third-page__main-section_arrow {
-    margin: 2% 0 14% 66%;
+    margin: 2% 0 12% 66%;
     font-size: 7px;
   }
 
   .third-page__footer {
     font-size: 7px;
     line-height: 13px;
-    padding: 1% 0;
+    padding: 2% 0 0 0;
   }
 }
 

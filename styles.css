@@ -965,6 +965,7 @@
   .second-page__main-section_arrow  {
     background-size: 50%;
     font-size: 7px;
+    padding-bottom: 4%;
   }
 
   .third-page {

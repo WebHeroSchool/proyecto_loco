@@ -1043,243 +1043,136 @@
   }
 }
 
-@media (max-width: 768px) {
-  .first-page {
-    background: none;
-    width: 100%;
-    height: auto;
-  }
-
-  .first-page__header {
-    height: 69px;
+@media (max-width:768px) {
+  .first-page__logo {
+    font-size: 60px;
+    padding-top: 7%;
+    height: 83px;
   }
 
   .first-page__hamburger-menu {
-    width: 70px;
-    height: 69px;
+    width: 20%;
+    height: 21%;
+  }
+  .menu__btn {
+    left: 86%;
+    top: 60px;
+    width: 35%;
   }
 
-  .first-page__logo {
-    height: 69px;
-    font-family: montserratmedium;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    color: #000;
-    padding: 15px 0 0 7%;
+  .menu__btn > span::after {
+    top: 14px;
   }
 
-  .first-page__lenguage {
-    display: none;
-  }
-
-  .first-page__middle-header {
-    margin: 0;
-    padding: 0;
-    display: contents;
+  .menu__btn > span, .menu__btn > span::after {
+    height: 5px;
   }
 
   .first-page__main-section {
-    width: 100%;
-    margin: 0;
-    padding: 354px 0 0 0;
-    background: url(img/first-page375.png);
-    background-position: top center;
-    background-size: 102%;
-    background-repeat: no-repeat;
-    height: 159px;
+    padding-top: 98%;
+    height: 100%;
   }
 
   .first-page__main-section_title {
-    font-size: 50px;
-    line-height: 51px;
-    background: url(img/first-vector375.png);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: 10%;
-    height: 130px;
-    padding: 0 0 10px 7%;
-  }
-
-  .menu__btn {
-    left: 87%;
-    top: 29px;
-  }
-
-  .first-page__main-section_description,
-  .first-page__main-section_read-more,
-  .first-page__main-section_products,
-  .first-page__main-section_products-vector,
-  .first-page__main-section_footer {
-    display: none;
+    font-size: 101px;
+    line-height: 87px;
+    padding-bottom: 14%;
   }
 
   .second-page {
-    height: 596px;
+    height: auto;
   }
 
   .second-page__main-section {
-    padding: 263px 0 0 0;
-    background-image: url(img/second375.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    width: 85%;
-    margin: auto;
+        padding: 74% 0 13% 0;
   }
-
-  .second-page__main-section_image-gris {
-    display: none;
-  }
-
-  .second-page__main-section_image-rose {
-    display: none;
-}
 
   .second-page__main-section_box {
-    margin: 0;
-    width: 100%;
-    height: 281px;
+    height: auto;
+    padding-bottom: 12%;
   }
-
   .second-page__main-section_box-title {
-    font-size: 20px;
-    line-height: 20px;
-    padding: 18px 0 3px 9%;
+    padding: 7% 0 3% 9%;
+    font-size: 40px;
   }
 
   .second-page__main-section_box-subtitle {
-    font-size: 10px;
-    line-height: 10px;
-    padding: 0 0 14px 10%;
+    font-size: 20px;
+    padding-bottom: 6%;
   }
 
   .second-page__main-section_box-description {
-    font-size: 9px;
-    line-height: 13px;
-    padding: 0 14% 13px 10%;
-    width: 77%;
-  }
-
-  .second-page__ellipse-grey,
-  .second-page__ellipse-blue,
-  .second-page__ellipse-green {
-    width: 23px;
-    height: 23px;
-    padding-bottom: 5px;
-  }
-
-  .second-page__ellipse-blue,
-  .second-page__ellipse-green,
-  .second-page__ellipse-rose {
-    padding-right: 4%;
-  }
-
-  .second-page__ellipse-rose {
-    width: 29px;
-    height: 29px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 5%;
   }
 
   .second-page__main-section_box-colores {
     width: 43%;
     margin-right: 15%;
-    padding: 0 0 36px 10%;
+    padding-bottom: 14%;
+}
+
+.second-page__ellipse-grey, .second-page__ellipse-blue, .second-page__ellipse-green {
+    width: 17%;
+    height: 17%;
+  }
+
+  .second-page__ellipse-rose {
+    width: 22%;
+    height: 22%;
   }
 
   .second-page__main-section_box-prise {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .second-page__main-section_box-number {
-    display: none;
+    font-size: 39px;
   }
 
   .second-page__main-section_box_basket {
-    margin: 31px 9% 25px 10%;
-    padding: 12px 15% 9px 14%;
+    font-size: 26px;
+    padding: 3% 15% 3% 14%;
   }
-
-  .second-page__main-section_arrow {
-    display: none;
-  }
-
   .third-page {
-    height: 597px;
-  }
-
-  .third-page__main-section {
-    padding-top: 34px;
-    width: 95%;
-    margin: auto;
-  }
-
-  .third-page__main-image {
-    margin: 0;
-    width: 100%;
+    height: auto;
   }
 
   .black-line {
-    width: 41px;
-    height: 597px;
-    margin-left: 27%;
+    width: 11%;
+    height: 100%;
+  }
+
+  .third-page__main-section {
+    padding-top: 9%;
   }
 
   .third-page__box-section {
     width: 85%;
-    height: 195px;
-    margin: 239px 7% 40px 10%;
+    height: auto;
+    margin: 68% 7% 4% 10%;
   }
 
   .third-page__box-section_title {
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0;
-    padding: 26px 0 0 8%;
+    font-size: 40px;
+    padding: 10% 0 3% 8%;
   }
 
   .third-page__box-section_subtitle {
-    font-size: 10px;
-    line-height: 10px;
-    letter-spacing: 0.07em;
-    margin: 0;
-    padding: 6px 0 0 8%;
+    font-size: 20px;
+    padding-bottom: 4%;
   }
 
   .third-page__box-section_description {
-    font-size: 9px;
-    line-height: 13px;
-    margin-left: 0;
-    padding: 10px 0 0 8%;
-    margin: 0 0 31px 0;
-    width: 76%;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 12%;
+    width: 78%;
   }
 
-  .third-page__main-section_box-number,
-  .third-page__footer {
-    display: none;
-  }
-
-  .third-page__main-section_box-basket {
-    padding: 12px 16% 9px 15%;
-    margin-left: 8%;
-  }
-
-  .third-page__main-section_arrow {
-    font-family: montserratmedium;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    margin-left: 50%;
-    padding-bottom: 17px;
-    background-position: center bottom;
-    background-size: 98%;
-    width: 39%;
+  .third-page__main-section_box_basket {
+    font-size: 26px;
+    padding: 4% 16% 3% 16%;
+    margin-left: 7%;
   }
 }
-
 
 @media (max-width: 380px) {
   .first-page {

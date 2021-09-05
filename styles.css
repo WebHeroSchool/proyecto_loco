@@ -1050,24 +1050,19 @@
     height: auto;
   }
 
-  .first-page__header {
-    height: 69px;
-  }
-
   .first-page__hamburger-menu {
-    width: 20%;
-    height: 21%;
+    width: 22%;
+    height: 22%;
   }
 
   .first-page__logo {
-    height: 83px;
     font-family: montserratmedium;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 37px;
     color: #000;
-    padding: 7% 0 0 7%;
+    padding: 7% 0 7% 7%;
   }
 
   .first-page__lenguage {
@@ -1083,7 +1078,7 @@
   .first-page__main-section {
     width: 100%;
     margin: 0;
-    padding: 98% 0 0 0;
+    padding: 98% 0 5% 0;
     background: url(img/first-page375.png);
     background-position: top center;
     background-size: 102%;
@@ -1104,7 +1099,7 @@
 
   .menu__btn {
     left: 86%;
-    top: 60px;
+    top: 9%;
     width: 35%;
   }
   .menu__btn > span::after {
@@ -1289,6 +1284,16 @@
     background-size: 98%;
     width: 39%;
   }
+
+@media (max-width:500px) {
+  .first-page__main-section_title {
+    font-size: 64px;
+  }
+
+  .first-page__main-section {
+    padding-top: 94%;
+  }
+}
 
   @media (max-width:380px) {
     .first-page__logo {

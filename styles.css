@@ -1235,6 +1235,7 @@
     width: 85%;
     height: auto;
     margin: 68% 7% 4% 10%;
+    padding-bottom: 9%;
   }
 
   .third-page__box-section_title {
@@ -1326,6 +1327,10 @@
   .third-page__box-section_description {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  .third-page__main-section_box_basket {
+    font-size: 17px;
   }
 }
 

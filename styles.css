@@ -1215,7 +1215,7 @@
   }
 
   .third-page__main-section {
-    padding-top: 34px;
+    padding: 34px 0 1% 0;
     width: 95%;
     margin: auto;
   }
@@ -1227,7 +1227,7 @@
 
   .black-line {
     width: 11%;
-    height: 100%;
+    height: auto;
     margin-left: 27%;
   }
 
@@ -1331,6 +1331,14 @@
 
   .third-page__main-section_box_basket {
     font-size: 17px;
+  }
+
+  .black-line {
+    height: 157%;
+  }
+
+  .third-page__main-section_arrow {
+    font-size: 20px;
   }
 }
 

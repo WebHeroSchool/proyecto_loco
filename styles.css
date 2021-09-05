@@ -1043,70 +1043,7 @@
   }
 }
 
-@media (min-width:381px) and (max-width:768px) {
-  .first-page__logo {
-    font-size: 60px;
-    height: 83px;
-  }
-
-  .menu__btn {
-    left: 86%;
-    top: 60px;
-  }
-
-  .menu__btn > span::after {
-    top: 14px;
-  }
-
-  .menu__btn > span, .menu__btn > span::after {
-    height: 5px;
-  }
-
-  .first-page__main-section_title {
-    font-size: 101px;
-    line-height: 87px;
-  }
-
-  .second-page__main-section_box-title {
-    font-size: 40px;
-  }
-
-  .second-page__main-section_box-subtitle {
-    font-size: 20px;
-  }
-
-  .second-page__main-section_box-description {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .second-page__main-section_box-prise {
-    font-size: 39px;
-  }
-
-  .second-page__main-section_box_basket {
-    font-size: 26px;
-  }
-
-  .third-page__box-section_title {
-    font-size: 40px;
-  }
-
-  .third-page__box-section_subtitle {
-    font-size: 20px;
-  }
-
-  .third-page__box-section_description {
-    font-size: 19px;
-    line-height: 24px;
-    width: 78%;
-  }
-
-  .third-page__main-section_box_basket {
-    font-size: 26px;
-  }
-
-@media (max-width: 380px) {
+@media (max-width:768px) {
   .first-page {
     background: none;
     width: 100%;
@@ -1123,11 +1060,11 @@
   }
 
   .first-page__logo {
-    height: 69px;
+    height: 83px;
     font-family: montserratmedium;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 60px;
     line-height: 37px;
     color: #000;
     padding: 7% 0 0 7%;
@@ -1155,8 +1092,8 @@
   }
 
   .first-page__main-section_title {
-    font-size: 50px;
-    line-height: 51px;
+    font-size: 101px;
+    line-height: 87px;
     background: url(img/first-vector375.png);
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -1166,9 +1103,16 @@
   }
 
   .menu__btn {
-    left: 87%;
-    top: 29px;
+    left: 86%;
+    top: 60px;
     width: 35%;
+  }
+  .menu__btn > span::after {
+    top: 14px;
+  }
+
+  .menu__btn > span, .menu__btn > span::after {
+    height: 5px;
   }
 
   .first-page__main-section_description,
@@ -1209,20 +1153,20 @@
   }
 
   .second-page__main-section_box-title {
-    font-size: 20px;
+    font-size: 40px;
     line-height: 20px;
     padding: 7% 0 3% 9%;
   }
 
   .second-page__main-section_box-subtitle {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 10px;
     padding: 0 0 6% 10%;
   }
 
   .second-page__main-section_box-description {
-    font-size: 9px;
-    line-height: 13px;
+    font-size: 18px;
+    line-height: 25px;
     padding: 0 14% 5% 10%;
     width: 77%;
   }
@@ -1253,7 +1197,7 @@
   }
 
   .second-page__main-section_box-prise {
-    font-size: 20px;
+    font-size: 39px;
     line-height: 28px;
   }
 
@@ -1264,6 +1208,7 @@
   .second-page__main-section_box_basket {
     margin: 31px 9% 25px 10%;
     padding: 3% 15% 3% 14%;
+    font-size: 26px;
   }
 
   .second-page__main-section_arrow {
@@ -1298,14 +1243,14 @@
   }
 
   .third-page__box-section_title {
-    font-size: 20px;
+    font-size: 40px;
     line-height: 20px;
     margin: 0;
     padding: 10% 0 3% 8%;
   }
 
   .third-page__box-section_subtitle {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 10px;
     letter-spacing: 0.07em;
     margin: 0;
@@ -1313,12 +1258,12 @@
   }
 
   .third-page__box-section_description {
-    font-size: 9px;
-    line-height: 13px;
+    font-size: 19px;
+    line-height: 24px;
     margin-left: 0;
     padding: 10px 0 0 8%;
     margin: 0 0 12% 0;
-    width: 76%;
+    width: 78%;
   }
 
   .third-page__main-section_box-number,
@@ -1329,6 +1274,7 @@
   .third-page__main-section_box-basket {
     padding: 4% 16% 3% 15%;
     margin-left: 8%;
+    font-size: 26px;
   }
 
   .third-page__main-section_arrow {
@@ -1343,4 +1289,55 @@
     background-size: 98%;
     width: 39%;
   }
+
+  @media (max-width:380px) {
+    .first-page__logo {
+      font-size: 30px;
+      height: 69px;
+    }
+
+    .menu__btn {
+      left: 86%;
+      top: 29px;
+    }
+
+    .first-page__main-section_title {
+      font-size: 50px;
+      line-height: 51px;
+    }
+
+    .second-page__main-section_box-title {
+      font-size: 20px;
+    }
+
+    .second-page__main-section_box-description {
+      font-size: 9px;
+      line-height: 13px;
+    }
+
+    .second-page__main-section_box-prise {
+      font-size: 20px;
+    }
+
+    .second-page__main-section_box_basket {
+      font-size: 16px;
+    }
+
+    .third-page__box-section_title {
+      font-size: 10px;
+    }
+
+    .third-page__box-section_subtitle {
+      font-size: 10px;
+    }
+
+    .third-page__box-section_description {
+      font-size: 9px;
+      line-height: 13px;
+      width: 76%;
+    }
+
+    .third-page__main-section_box_basket {
+      font-size: 16px;
+    }
 }

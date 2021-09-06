@@ -32,13 +32,13 @@
   font-size: 30px;
   line-height: 37px;
   letter-spacing: 0.07em;
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .first-page__lenguage {
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000;
   border: none;
   margin-right: 19px;
@@ -68,7 +68,6 @@
 #menu__toggle {
   opacity: 0;
 }
-
 
 .menu__btn > span,
 .menu__btn > span::after {
@@ -128,7 +127,7 @@
   background: url(img/first-page.png);
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 49%;;
+  background-size: 49%;
   padding: 106px 0 0 41%;
 }
 
@@ -195,6 +194,7 @@
   background-size: contain;
   background-position: center left;
 }
+
 .first-page__main-section_products-vector:hover {
   cursor: pointer;
 }
@@ -217,17 +217,18 @@
   align-items: center;
   cursor: pointer;
 }
+
+.first-page__main-section_footer-instagram,
+.first-page__main-section_footer-vkontakte {
+  margin-right: 12px;
+}
+
 .first-page__main-section_footer-instagram:hover,
 .first-page__main-section_footer-vkontakte:hover,
 .first-page__main-section_footer-facebook:hover {
   cursor: pointer;
   width: 45px;
   height: 45px;
-}
-
-.first-page__main-section_footer-instagram,
-.first-page__main-section_footer-vkontakte {
-  margin-right: 12px;
 }
 
 .first-page__main-section_footer-icons {
@@ -277,7 +278,7 @@
 }
 
 .second-page__main-section_box-title {
-  font-family: montserratbold;
+  font-family: montserratbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -287,7 +288,7 @@
 }
 
 .second-page__main-section_box-subtitle {
-  font-family: montserratbold;
+  font-family: montserratbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -367,11 +368,6 @@
 .second-page__main-section_box-number {
   margin: 0 2% 0 11%;
   width: 20%;
-}
-
-.second-page__main-section_box-number,
-.second-page__main-section_box_basket {
-
 }
 
 .second-page__main-section_box_basket {
@@ -468,10 +464,10 @@
   line-height: 16px;
 }
 
-.third-page{
+.third-page {
   width: 100%;
   height: 900px;
-  background: #EBE3D8;
+  background: #ebe3d8;
 }
 
 .black-line {
@@ -488,7 +484,7 @@
   width: 58%;
   position: absolute;
   z-index: 20;
-  box-shadow: 0px 19px 28px rgb(0 0 0 / 20%);
+  box-shadow: 0 19px 28px rgb(0 0 0 / 20%);
 }
 
 .third-page__box-section {
@@ -848,7 +844,7 @@
     font-size: 7px;
   }
 
-  .first-page__main-section_read-more{
+  .first-page__main-section_read-more {
     padding: 3% 8%;
     margin-right: 8%;
   }
@@ -963,7 +959,7 @@
     line-height: 26px;
   }
 
-  .second-page__main-section_box_basket{
+  .second-page__main-section_box_basket {
     font-size: 7px;
     padding-top: 12px;
   }
@@ -972,7 +968,7 @@
     margin-bottom: 7%;
   }
 
-  .second-page__main-section_arrow  {
+  .second-page__main-section_arrow {
     background-size: 50%;
     font-size: 7px;
     padding-bottom: 4%;
@@ -1019,9 +1015,9 @@
   }
 
   .third-page__main-section_box-number {
-   margin: 0 2% 9% 9%;
-   padding-bottom: 1%;
-   padding-top: 0;
+    margin: 0 2% 9% 9%;
+    padding-bottom: 1%;
+    padding-top: 0;
   }
 
   .third-page__main-section_box_number-text {
@@ -1054,7 +1050,7 @@
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .first-page {
     background: none;
     width: 100%;
@@ -1299,7 +1295,7 @@
   }
 }
 
-@media (max-width:625px) {
+@media (max-width: 625px) {
   .first-page__main-section_title {
     font-size: 64px;
   }
@@ -1366,7 +1362,7 @@
   }
 }
 
-@media (max-width:430px) {
+@media (max-width: 430px) {
   .first-page__hamburger-menu {
     height: 20%;
   }
@@ -1400,7 +1396,7 @@
   }
 }
 
-  @media (max-width:380px) {
+  @media (max-width: 380px) {
   .first-page__logo {
     font-size: 30px;
     height: 27px;

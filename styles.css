@@ -767,6 +767,10 @@
     width: 60%;
   }
 
+  .third-page__main-section_box_basket {
+    font-size: 11px;
+  }
+
   .third-page__main-section_arrow {
     margin-top: 13px;
     margin-bottom: 260px;

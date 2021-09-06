@@ -1021,6 +1021,7 @@
   .third-page__main-section_box-number {
    margin: 0 2% 9% 9%;
    padding-bottom: 1%;
+   padding-top: 0;
   }
 
   .third-page__main-section_box_number-text {
@@ -1297,7 +1298,7 @@
     width: 39%;
   }
 
-@media (max-width:589px) {
+@media (max-width:625px) {
   .first-page__main-section_title {
     font-size: 64px;
   }

@@ -1422,8 +1422,18 @@
     padding-bottom: 3%;
   }
 
+  .second-page__main-section {
+    padding: 70% 0 13% 0;
+  }
+
   .second-page__main-section_box-title {
     font-size: 20px;
+    padding: 6% 0 1% 9%;
+  }
+
+  .second-page__main-section_box-subtitle {
+    font-size: 10px;
+    padding-bottom: 4%;
   }
 
   .second-page__main-section_box-description {
@@ -1431,8 +1441,14 @@
     line-height: 13px;
   }
 
+  .second-page__main-section_box-colores {
+    padding-bottom: 11%;
+  }
+
   .second-page__main-section_box-prise {
     font-size: 20px;
+    position: absolute;
+    padding: 1%;
   }
 
   .second-page__main-section_box_basket {
@@ -1440,11 +1456,13 @@
   }
 
   .third-page__box-section_title {
-    font-size: 10px;
+    font-size: 20px;
+    padding: 8% 0 0 8%;
   }
 
   .third-page__box-section_subtitle {
     font-size: 10px;
+    padding-bottom: 3%;
   }
 
   .third-page__box-section_description {

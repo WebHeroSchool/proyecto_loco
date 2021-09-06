@@ -725,6 +725,10 @@
     left: 95%;
   }
 
+  .second-page__main-section_arrow {
+    background-size: 34%;
+  }
+
   .second-page__main-section_image-rose {
      width: 40%;
   }

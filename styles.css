@@ -459,7 +459,7 @@
   width: 33%;
   background: url(img/second-vector.png);
   background-position: right;
-  background-size: 42%;
+  background-size: 50%;
   background-repeat: no-repeat;
   font-family: montserratmedium;
   font-style: normal;
@@ -485,7 +485,7 @@
 
 .third-page__main-image {
   margin-left: 6%;
-  width: 60%;
+  width: 58%;
   position: absolute;
   z-index: 20;
   box-shadow: 0px 19px 28px rgb(0 0 0 / 20%);
@@ -516,7 +516,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
-  padding: 39px 11% 15px 9%;
+  padding: 42px 11% 15px 9%;
 }
 
 .third-page__box-section_subtitle {
@@ -538,7 +538,7 @@
   font-size: 15px;
   line-height: 21px;
   opacity: 0.5;
-  padding: 0 12% 55px 10%;
+  padding: 0 13% 55px 10%;
   margin: 0;
 }
 
@@ -624,7 +624,7 @@
 }
 
 .third-page__main-section_arrow {
-  margin: 37px 0 197px 66%;
+  margin: 39px 0 195px 66%;
   width: 24%;
   background: url(img/third-vector.png);
   background-position: right;
@@ -639,7 +639,7 @@
 
 .third-page__footer {
   margin-left: 84%;
-  padding-top: 17px;
+  padding-top: 11px;
   font-family: montserratbold;
   font-style: normal;
   font-weight: bold;

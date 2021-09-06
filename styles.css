@@ -1464,7 +1464,7 @@
   }
 
   .second-page__main-section_box_basket {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .black-line {
@@ -1499,5 +1499,7 @@
   .third-page__main-section_arrow {
     font-size: 15px;
     margin-bottom: 10%;
+    margin-top: 11%;
+    line-height: 19px;
   }
 }

@@ -1377,6 +1377,14 @@
   .black-line {
     height: 161%;
   }
+
+  .first-page__main-section_title {
+    font-size: 58px;
+  }
+
+  .first-page__main-section {
+    padding-top: 90%;
+  }
 }
 
   @media (max-width:380px) {

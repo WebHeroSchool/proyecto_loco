@@ -498,7 +498,7 @@
 }
 
 .third-page__box-section_title {
-  font-family: montserratbold;
+  font-family: montserratbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -508,7 +508,7 @@
 }
 
 .third-page__box-section_subtitle {
-  font-family: montserratbold;
+  font-family: montserratbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -520,7 +520,7 @@
 }
 
 .third-page__box-section_description {
-  font-family: montserratregular;
+  font-family: montserratregular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -535,7 +535,6 @@
   user-select: none;
   position: relative;
   text-align: left;
-  padding: 0;
   width: 20%;
   padding: 4px 2px 4px 0;
   border: 1.5px solid #000;

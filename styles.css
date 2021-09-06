@@ -1052,7 +1052,7 @@
 
   .first-page__hamburger-menu {
     width: 22%;
-    height: 22%;
+    height: 29.3%;
   }
 
   .first-page__logo {
@@ -1087,7 +1087,7 @@
   }
 
   .first-page__main-section_title {
-    font-size: 101px;
+    font-size: 92px;
     line-height: 87px;
     background: url(img/first-vector375.png);
     background-position: bottom center;
@@ -1099,7 +1099,7 @@
 
   .menu__btn {
     left: 86%;
-    top: 9%;
+    top: 13%;
     width: 35%;
   }
   .menu__btn > span::after {
@@ -1201,9 +1201,9 @@
   }
 
   .second-page__main-section_box_basket {
-    margin: 31px 9% 25px 10%;
+    margin: 31px 9% 0 10%;
     padding: 3% 15% 3% 14%;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .second-page__main-section_arrow {
@@ -1227,7 +1227,7 @@
 
   .black-line {
     width: 11%;
-    height: auto;
+    height: 270%;
     margin-left: 27%;
   }
 
@@ -1269,25 +1269,34 @@
   .third-page__main-section_box_basket {
     padding: 4% 16% 3% 15%;
     margin-left: 8%;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .third-page__main-section_arrow {
     font-family: montserratmedium;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 30px;
+    line-height: 34px;
     margin-left: 50%;
+    margin-top: 23%;
     padding-bottom: 17px;
     background-position: center bottom;
     background-size: 98%;
     width: 39%;
   }
 
-@media (max-width:500px) {
+@media (max-width:589px) {
   .first-page__main-section_title {
     font-size: 64px;
+  }
+
+  .first-page__hamburger-menu {
+    height: 24%;
+  }
+
+  .menu__btn {
+    top: 10%;
   }
 
   .first-page__main-section {
@@ -1312,7 +1321,7 @@
   }
 
   .second-page__main-section_box_basket {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .third-page__box-section_title {
@@ -1330,11 +1339,13 @@
   }
 
   .third-page__main-section_box_basket {
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 18%;
+    margin-bottom: 10%;
   }
 
   .black-line {
-    height: 157%;
+    height: 187%;
   }
 
   .third-page__main-section_arrow {
@@ -1342,54 +1353,80 @@
   }
 }
 
+@media (max-width:430px) {
+  .first-page__hamburger-menu {
+    height: 20%;
+  }
+
+  .menu__btn > span, .menu__btn > span::after {
+    height: 4px;
+  }
+
+  .menu__btn {
+    top: 8%;
+  }
+
+  .second-page__main-section_box_basket {
+    font-size: 13px;
+  }
+
+  .third-page__main-section_box_basket {
+    font-size: 13px;
+  }
+
+  .black-line {
+    height: 161%;
+  }
+}
+
   @media (max-width:380px) {
-    .first-page__logo {
-      font-size: 30px;
-      height: 69px;
-    }
+  .first-page__logo {
+    font-size: 30px;
+    height: 69px;
+  }
 
-    .menu__btn {
-      left: 86%;
-      top: 29px;
-    }
+  .menu__btn {
+    left: 86%;
+    top: 29px;
+  }
 
-    .first-page__main-section_title {
-      font-size: 50px;
-      line-height: 51px;
-    }
+  .first-page__main-section_title {
+    font-size: 50px;
+    line-height: 51px;
+  }
 
-    .second-page__main-section_box-title {
-      font-size: 20px;
-    }
+  .second-page__main-section_box-title {
+    font-size: 20px;
+  }
 
-    .second-page__main-section_box-description {
-      font-size: 9px;
-      line-height: 13px;
-    }
+  .second-page__main-section_box-description {
+    font-size: 9px;
+    line-height: 13px;
+  }
 
-    .second-page__main-section_box-prise {
-      font-size: 20px;
-    }
+  .second-page__main-section_box-prise {
+    font-size: 20px;
+  }
 
-    .second-page__main-section_box_basket {
-      font-size: 16px;
-    }
+  .second-page__main-section_box_basket {
+    font-size: 16px;
+  }
 
-    .third-page__box-section_title {
-      font-size: 10px;
-    }
+  .third-page__box-section_title {
+    font-size: 10px;
+  }
 
-    .third-page__box-section_subtitle {
-      font-size: 10px;
-    }
+  .third-page__box-section_subtitle {
+    font-size: 10px;
+  }
 
-    .third-page__box-section_description {
-      font-size: 9px;
-      line-height: 13px;
-      width: 76%;
-    }
+  .third-page__box-section_description {
+    font-size: 9px;
+    line-height: 13px;
+    width: 76%;
+  }
 
-    .third-page__main-section_box_basket {
-      font-size: 16px;
-    }
+  .third-page__main-section_box_basket {
+    font-size: 16px;
+  }
 }

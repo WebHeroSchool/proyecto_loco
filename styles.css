@@ -1388,7 +1388,7 @@
   }
 }
 
-  @media (max-width: 380px) {
+@media (max-width: 380px) {
   .first-page__logo {
     font-size: 30px;
     height: 27px;

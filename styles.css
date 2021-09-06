@@ -577,7 +577,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 0px;
   color: #000;
   line-height: 32px;
   margin-left: 20%;
@@ -828,7 +827,6 @@
     width: 84%;
     padding-bottom: 23px;
   }
-
 
   .first-page__main-section_read-more,
   .first-page__main-section_products {

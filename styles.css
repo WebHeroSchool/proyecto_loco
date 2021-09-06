@@ -1390,17 +1390,36 @@
   @media (max-width:380px) {
   .first-page__logo {
     font-size: 30px;
-    height: 69px;
+    height: 27px;
+    padding-top: 4%;
+  }
+
+  .first-page__hamburger-menu {
+    width: 19%;
+    height: 14%;
   }
 
   .menu__btn {
-    left: 86%;
+    left: 87%;
     top: 29px;
+  }
+
+  .menu__btn > span, .menu__btn > span::after {
+    height: 3px;
+  }
+
+  .menu__btn > span::after {
+    top: 8px;
+  }
+
+  .first-page__main-section {
+    padding-top: 98%;
   }
 
   .first-page__main-section_title {
     font-size: 50px;
     line-height: 51px;
+    padding-bottom: 3%;
   }
 
   .second-page__main-section_box-title {

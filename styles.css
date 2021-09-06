@@ -437,7 +437,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 0px;
   color: #000;
   line-height: 32px;
   margin-left: 22%;
@@ -500,16 +499,13 @@
 }
 
 .third-page__box-section_title {
-  margin: 0;
-}
-
-.third-page__box-section_title {
   font-family: montserratbold;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 41px;
   padding: 42px 11% 15px 9%;
+  margin: 0;
 }
 
 .third-page__box-section_subtitle {

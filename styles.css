@@ -389,7 +389,6 @@
   border-radius: 0.8;
 }
 
-
 .second-page__main-section_box-number {
   display: inline-block;
   user-select: none;
@@ -433,7 +432,7 @@
 
 .second-page__main-section_box_number-text {
   display: inline-block;
-  font-family: montserratmedium;
+  font-family: montserratmedium, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -453,7 +452,7 @@
   background-position: right;
   background-size: 50%;
   background-repeat: no-repeat;
-  font-family: montserratmedium;
+  font-family: montserratmedium, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;

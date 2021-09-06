@@ -10,6 +10,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 63%;
+  padding-bottom: 2.4%;
 }
 
 .first-page__middle-header {
@@ -1048,6 +1049,7 @@
     background: none;
     width: 100%;
     height: auto;
+    padding-bottom: 0;
   }
 
   .first-page__hamburger-menu {

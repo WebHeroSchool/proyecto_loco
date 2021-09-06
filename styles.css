@@ -1455,6 +1455,14 @@
     font-size: 16px;
   }
 
+  .black-line {
+    height: 122%;
+  }
+
+  .third-page__box-section {
+    padding-bottom: 10%;
+  }
+
   .third-page__box-section_title {
     font-size: 20px;
     padding: 8% 0 0 8%;
@@ -1469,9 +1477,15 @@
     font-size: 9px;
     line-height: 13px;
     width: 76%;
+    margin-bottom: 10%;
   }
 
   .third-page__main-section_box_basket {
     font-size: 13px;
+  }
+
+  .third-page__main-section_arrow {
+    font-size: 15px;
+    margin-bottom: 10%;
   }
 }

@@ -1054,7 +1054,7 @@
   }
 
   .first-page__logo {
-    font-family: montserratmedium;
+    font-family: montserratmedium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
@@ -1138,7 +1138,7 @@
 
   .second-page__main-section_image-rose {
     display: none;
-}
+  }
 
   .second-page__main-section_box {
     margin: 0;
@@ -1359,7 +1359,8 @@
     height: 20%;
   }
 
-  .menu__btn > span, .menu__btn > span::after {
+  .menu__btn > span,
+  .menu__btn > span::after {
     height: 4px;
   }
 
